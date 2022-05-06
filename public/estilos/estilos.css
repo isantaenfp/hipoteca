@@ -1,7 +1,16 @@
 body{
   font-family: 'Quicksand', sans-serif;
+  background-color:#FFEF82;
+  color:#82954B;
+  font-size:1.3em;
 }
 
 h1{
   font-family: 'Bebas Neue', cursive;
+  font-size:2.4em;
+}
+
+.fotoCasa{
+  width:80%;
+  border:10px solid #BABD42;
 }

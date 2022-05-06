@@ -10,7 +10,43 @@
     <link rel="stylesheet" href="estilos/estilos.css">
   </head>
   <body>
+    <div class="container pt-5">
+      <h1>CALCULADORA "HIPOTECA"</h1>
+      <p>Averigua cuanto pagarás cada mes. Introduce el tipo
+      de vivienda que deseas comprar y en cuantos años
+    lo deseas pagar.</p>
+      <div class="row">
+        <div class="col-lg-4">
+          <!-- Formulario -->
+          <form class="" action="/" method="post">
+            <div class="form-group">
+              <label class="form-label" for="">Tipo Vivienda</label>
+              <select class="form-select" name="tipoVivienda">
+                <option value="piso">Piso</option>
+                <option value="chalet">Chalet</option>
+                <option value="duplex">Duplex</option>
+              </select>
+            </div>
+            <br>
+            <div class="form-group">
+              <label class="form-label" for="">Años Hipoteca</label>
+              <select class="form-select" name="annos">
+                <option value="20">20</option>
+                <option value="25">25</option>
+                <option value="30">30</option>
+              </select>
+            </div>
 
-    <h1>CALCULADORA "HIPOTECA"</h1>
+            <input type="submit" class="btn btn-lg btn-danger mt-5" name="" value="CALCULAR">
+          </form>
+        </div>
+        <div class="col-lg-8 text-center">
+          <!-- Foto -->
+          <img class="fotoCasa" src="imagenes/piso.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+  <script src="js/javascript.js" charset="utf-8"></script>
   </body>
 </html>
